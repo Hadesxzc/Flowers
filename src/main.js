@@ -5,7 +5,7 @@
 
 const params = new URLSearchParams(window.location.search);
 const recipientName = (params.get('for') || params.get('name') || 'crush').trim();
-const customMessage = 'Congratulations! Engilou';
+const customMessage = 'Happy Graduation, Engilou!';
 
 // Start animation after a brief pause
 setTimeout(() => {
